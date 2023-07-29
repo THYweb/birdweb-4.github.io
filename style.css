@@ -38,13 +38,15 @@ section ul{
 
 section ul li{
 	list-style: none;
-	background: #E08F22;
+	background: #eee;
 	padding: 12px 20px;
 	margin: 5px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-
+section ul li:hover{
+	background: #E08F22;
+}
 section ul li.active{
 	background:  #0D53FE;
 	color: #fff;
