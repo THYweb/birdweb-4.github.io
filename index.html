@@ -341,7 +341,7 @@
 		function show(ns){
 			$(document).ready(function(){
 				$.ajax({
-                    url:'./json/bird.json',
+                    url:'json/bird.json',
                     method:'GET',
                     dataType:'json',
                     success:function(data){
@@ -388,7 +388,7 @@
 		/*
 		//使用Axios讀json檔案
 		function show(ns){
-			axios.get("./json/bird.json").then(function(response){
+			axios.get("json/bird.json").then(function(response){
 				let data=response.data;
 				//用for迴圈讀Json檔案內容，將data存放在bird變數
 				for(let i=0;i<data.length;i++){
