@@ -50,9 +50,6 @@ section ul li.active{
 	color: #fff;
 }
 
-section ul li.active:hover{
-	background: #E08F22;
-}
 
 .birdsection{
 	padding: 20px;
