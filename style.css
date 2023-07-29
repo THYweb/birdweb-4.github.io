@@ -44,12 +44,14 @@ section ul li{
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-section ul li:hover{
-	background: #E08F22;
-}
+
 section ul li.active{
 	background:  #0D53FE;
 	color: #fff;
+}
+
+section ul li:hover{
+	background: #E08F22;
 }
 
 .birdsection{
