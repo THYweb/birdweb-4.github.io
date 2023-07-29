@@ -45,7 +45,7 @@ section ul li{
 	cursor: pointer;
 }
 
-section ul li.active{
+section ul li.active:hover{
 	background:  #0D53FE;
 	color: #fff;
 }
