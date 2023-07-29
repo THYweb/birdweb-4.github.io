@@ -365,7 +365,7 @@
 		
 		//使用fetch讀json檔案
 		 function show(ns){	
-			fetch("./json/bird.json").then(function(response){
+			fetch("json/bird.json").then(function(response){
 				return response.json(); //選擇Json格式
 			}).then(function(data){
 				//用for迴圈讀Json檔案內容，將data存放在bird變數
