@@ -226,10 +226,78 @@ footer .ft{
 	top: 35%;
 }
 
+@media screen and (max-width:1280px){
 
+	.bird .itemBox{
+		position: relative;
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		display: block;
+	}
+
+	#divImg img{
+		width:400px;
+		height:400px;
+		object-fit: cover;
+	}
+	
+	#divShow{
+		width:400px;
+		height:300px;
+		overflow-wrap: break-word;
+		white-space: normal;
+		text-align: center;
+		margin-left:10px;
+	}
+
+	#divShow h1{
+		font-size:24px;
+	}
+
+	#divShow p{
+		font-size:18px;
+	}
+
+}
 
 
 @media screen and (max-width:1024px){
+
+	.bird .itemBox{
+		position: relative;
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		display: block;
+	}
+
+	#divImg img{
+		width:400px;
+		height:400px;
+		object-fit: cover;
+	}
+	
+	#divShow{
+		width:400px;
+		height:300px;
+		overflow-wrap: break-word;
+		white-space: normal;
+		text-align: center;
+		margin-left:10px;
+	}
+
+	#divShow h1{
+		font-size:24px;
+	}
+
+	#divShow p{
+		font-size:18px;
+	}
+
+}
+
+@media screen and (max-width:980px){
 
 	.bird .itemBox{
 		position: relative;
